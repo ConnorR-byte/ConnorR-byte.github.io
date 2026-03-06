@@ -1,65 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Connor Riley Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connor Riley Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #0077b6;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #023e8a;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        h2 {
+            border-bottom: 2px solid #0077b6;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .project {
+            border: 1px solid #0077b6;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            background-color: #e0f7fa;
+        }
+        a {
+            color: #0077b6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            border-top: 2px solid #0077b6;
+            padding-top: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
-
 <body>
+    <div class="container">
+        <h1>Connor Riley</h1>
+        <p style="text-align:center;">Information Technology Student</p>
 
-<h1>Connor Riley</h1>
-<p>Information Technology Student</p>
+        <h2>About Me</h2>
+        <p>
+            I am an Information Technology student at Frostburg State University.
+            My interests include Database creation, networking, and cybersecurity.
+            This portfolio highlights my technical projects and coursework.
+        </p>
 
-<h2>About Me</h2>
-<p>
-I am an Information Technology student at Frostburg State University.
-My interests include Database creation, networking, and cybersecurity.
-This portfolio highlights my technical projects and coursework.
-</p>
+        <h2>Projects</h2>
 
-<h2>Projects</h2>
+        <div class="project">
+            <h3>COVID‑19 Tracker Website</h3>
+            <p>
+                This project involved creating a website that displays COVID‑19 data
+                and statistics in a simple dashboard format. The goal was to make the
+                information easy for users to view and understand.
+            </p>
+            <p><strong>Technologies Used:</strong> HTML, JavaScript</p>
+        </div>
 
-<h2>Technical Projects</h2>
+        <div class="project">
+            <h3>Password Security Testing in Virtual Machine</h3>
+            <p>
+                In this project I used a virtual machine environment to test password
+                security techniques. A password scrambling tool was used to demonstrate
+                how weak passwords can be vulnerable to attack. This lab helped show the
+                importance of strong password practices and system security.
+            </p>
+            <p><strong>Technologies Used:</strong> Virtual Machine, Security Tools</p>
+        </div>
 
-<h3>COVID‑19 Tracker Website</h3>
-<p>
-This project involved creating a website that displays COVID‑19 data
-and statistics in a simple dashboard format. The goal was to make the
-information easy for users to view and understand.
-</p>
-<p><strong>Technologies Used:</strong> HTML, JavaScript</p>
+        <div class="project">
+            <h3>Network Port Scanning and Traffic Analysis</h3>
+            <p>
+                This project involved scanning a network host to identify open ports and
+                running services. I used a port scanning tool to discover open ports and
+                then analyzed network traffic to understand how devices communicate across
+                the network.
+            </p>
+            <p><strong>Technologies Used:</strong> Nmap, Wireshark, Networking Tools</p>
+        </div>
 
+        <h2>Resume</h2>
+        <p>
+            <a href="RileyConnor_Resume.pdf">Download My Resume</a>
+        </p>
 
-<h3>Password Security Testing in Virtual Machine</h3>
-<p>
-In this project I used a virtual machine environment to test password
-security techniques. A password scrambling tool was used to demonstrate
-how weak passwords can be vulnerable to attack. This lab helped show the
-importance of strong password practices and system security.
-</p>
-<p><strong>Technologies Used:</strong> 
-:contentReference[oaicite:0]{index=0}
-</p>
-
-<h3>Network Port Scanning and Traffic Analysis</h3>
-<p>
-This project involved scanning a network host to identify open ports and
-running services. I used a port scanning tool to discover open ports and
-then analyzed network traffic to understand how devices communicate across
-the network.
-</p>
-<p><strong>Technologies Used:</strong> 
-:contentReference[oaicite:1]{index=1},
-:contentReference[oaicite:2]{index=2}
-</p>
-<h2>Resume</h2>
-<p>Resume coming soon.</p>
-
-  <h2>Resume</h2>
-<p>
-<a href="RileyConnor_Resume.pdf">Download My Resume</a>
-</p>
-<h2>Contact</h2>
-<p>Email: Rileyconnor2021@gmail.com</p>
-
+        <h2>Contact</h2>
+        <p class="contact">Email: Rileyconnor2021@gmail.com</p>
+    </div>
 </body>
 </html>
